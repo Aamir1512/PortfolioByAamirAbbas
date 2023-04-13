@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topNavbar li{
+    list-style: none;
+    color: aliceblue;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    /* display: inline; */
+    
+}
+
+.topNavbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.topNavbar ul{
+    display: none;
+    background-color: rgb(48, 47, 47);
+}
+.top-navbar{
+    display: none;
+    background-color: rgb(48, 47, 47);
+   
+}
+.top-navbar h1{
+   
+    color: aliceblue;
+  
+}
+.top-navbar i{
+    border: none;
+    margin-left:60vw;
+}
+
+.whole{
+    display: flex;
+    height: 100vh;
+  
+}
+.sidebar{
+    background-color: rgb(48, 47, 47);
+    width: 15vw;
+    position: fixed;
+    height: 100vh;
+    padding: 50px;
+    
+}
+
+.sidebar li{
+    list-style: none;
+    color: aliceblue;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+}
+.sidebar img{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    padding: 8px;
+}
+.main{
+    width: 70vw;
+    padding-left: 25vw;
+}
+
+.about  h1{
+    margin-top:40px ;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about h3{ 
+    margin-top:20px ;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+}
+.resume{
+    margin-top: 50px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+} 
+.about a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    font-size: 30px;
+    border: 10px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.experiance h1{
+    margin-top:10px ;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experiance h3{ 
+    margin-top:20px ;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experiance h4{
+    margin-top: 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experiance p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+}
+.experiance li{
+    list-style: square;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.education h1{
+    margin-top:100px ;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education h3{ 
+    margin-top:15px ;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education h4{
+    margin-top: 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.project h1{
+    margin-top:60px ;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project h3{ 
+    margin-top:10px ;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project h2{
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+}
+.skills h1{
+    margin-top:60px ;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skills h3{
+    margin-top:10px ;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(48, 47, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skills li{
+    list-style: square;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hobby{
+    height: 100vh;
+}
+.hobby h1{
+    margin-top:60px ;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hobby li{
+    list-style: square;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+@media (max-width:1000px){
+    body {
+   
+    }
+    .sidebar{
+        display: none;
+    }
+    .topNavbar ul{
+        display: block;
+    }
+
+    .main{
+        width: 100vw;
+        padding: 5vw;
+    }
+    .top-navbar{
+        display: block;
+    }
+    }
